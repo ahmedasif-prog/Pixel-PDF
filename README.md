@@ -106,4 +106,6 @@ This project is licensed under the MIT License.
 **Ahmed Asif**
 
 If you like this project, consider giving it a ⭐ on GitHub!<br>
-For Demo: ixel-pdf-1--ahmedasifhafiz2.replit.app
+## 🚀 Demo
+
+**Live Demo:** https://ixel-pdf-1--ahmedasifhafiz2.replit.app
