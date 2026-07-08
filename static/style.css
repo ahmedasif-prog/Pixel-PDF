@@ -1,0 +1,15 @@
+.custom-navbar {
+  background-color: #183374; 
+}
+.custom-box{
+    background-color: #0c3980;
+}
+body{
+    margin: 0;
+    background-color: #1a1f3a;
+}
+.card{
+    background-color: #1f2937;
+    color: white;
+    border: 1px solid #374151;
+}
