@@ -16,7 +16,7 @@ def imageconvertor():
         
         img=Image.open(file)
         if targeted_format=="JPEG" and img.mode in ("RGBA","P"):
-            img.convert("RGB")
+            img=img.convert("RGB")
         output=BytesIO()
         img.save(output,format=targeted_format)
         output.seek(0)
@@ -61,9 +61,9 @@ def imagecompressor():
         output.seek(0)
         return send_file(
             output,
-            mimetype=f"image.{original_format}",
+            mimetype=f"image/jpg",
             as_attachment=True,
-            download_name=f"compressed.{original_format}"
+            download_name=f"compressed.jpg"
         )
 
     return render_template('imagecompressor.html')
